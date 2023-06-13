@@ -14,6 +14,10 @@ const routes: Routes = [
         path:'MapsUI',
         component:MAPCreatorComponent
     },
+    {
+      path:"Imageeditor",
+      component:ImageeditorComponent
+    }
     
   ];
   @NgModule({
